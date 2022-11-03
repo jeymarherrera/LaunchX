@@ -12,12 +12,18 @@
 - La página debe de ser responsive para poderla ver desde el celular.
 - La preferencia de colores del cliente es azul marino y blanco, pero acepta propuestas.
 
-  - [Toma de requerimientos](./)
-    - [buyer persona](./)
-  - [Publico objetivo](./)
-  - [Wireframe UX](./wireframe.png)
-  - [Mockup UI](./UI)
-    
+  # Toma de requerimientos - Aboga Bot :robot:
+  # Publico objetivo - Aboga Bot :robot:
+  # Wireframe UX - Aboga Bot :robot:
+ ![Wireframe Image](wireframe.png)
+ :paperclip:Link: https://balsamiq.cloud/sv6p4cw/pg0gzpq
+  # Mockup UI - Aboga Bot :robot:
+ ![Inicio Image](./UI/Inicio.png)
+ ![Autenticación](./UI/Autenticacion.png)
+ ![Formulario](./UI/Formulario.png)
+ ![Panel](./UI/Panel.png) <br>
+ :paperclip:Link: https://www.figma.com/file/ti5Vg6SG5gBZQSdlK8P3Yy/AbogaBot?node-id=0%3A1
+ 
 Lenguajes y Herramientas utilizados: <br>
 ![Miró](https://img.shields.io/badge/miro-%FFD02F.svg?style=for-the-badge&logo=miro&logoColor=white)
 ![Balsamiq](https://img.shields.io/badge/balsamiq-%6757E768.svg?style=for-the-badge&logo=balsamiq&logoColor=white)
