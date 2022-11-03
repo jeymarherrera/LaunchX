@@ -1,6 +1,12 @@
-# practicas-launchX
-Prácticas realizadas en la Misión Frontend de Launch X
-- Desarrollo de proyectos como:
-    1. Pastelería - Galaxy Bakery: en la cual los clientes pueden ordenar a través de un formulario, eligiendo las caracteristicas con las que desea ordenar su pastel y agregar sus datos presonales para proceder con orden de su pedido. Así como tambien, podrá visualizar algunas de las imagenes de los pasteles recientes realizados en esta pequeña pastelería, su ubicación, dirección, contacto y horario de atención.
-    En cuanto a los encargados de la pastelería, podrán tener un control de los pedidos recibido, los ingredientes a disposicion y toda aquella información relevante de su negocio en este sistema propuesto para automatizar el trabajo a realizar y la atención a los diferentesclientes.
-    Lenguajes usados: Solamente, lenguaje de etiqueta HTML y hojas de estilo CSS.
+# Misión Frontend de Launch X
+- Proyectos Desarrollados: <br>
+    :one: Pastelería - Galaxy Bakery: Página Web para la automatización de pedidos de una pastelería. <br>
+    :two: Agencia de Abogados - AbogaBot: Página Web para la automatización de demandas de un bufete de abogados <br>
+    
+Lenguajes y Herramientas utilizados: <br>
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![Miró](https://img.shields.io/badge/miro-%FFD02F.svg?style=for-the-badge&logo=miro&logoColor=white)
+![Balsamiq](https://img.shields.io/badge/balsamiq-%6757E768.svg?style=for-the-badge&logo=balsamiq&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![Firebase](https://img.shields.io/badge/firebase-%23039BE5.svg?style=for-the-badge&logo=firebase)
