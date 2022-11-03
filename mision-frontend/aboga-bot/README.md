@@ -16,7 +16,7 @@
     - [buyer persona](./)
   - [Publico objetivo](./)
   - [Wireframe UX](./wireframe.png)
-  - [Mockup UI](./)
+  - [Mockup UI](./UI)
     
 Lenguajes y Herramientas utilizados: <br>
 ![Miró](https://img.shields.io/badge/miro-%FFD02F.svg?style=for-the-badge&logo=miro&logoColor=white)
