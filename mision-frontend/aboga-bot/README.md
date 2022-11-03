@@ -15,7 +15,7 @@
   - [Toma de requerimientos](./)
     - [buyer persona](./)
   - [Publico objetivo](./)
-  - [Wireframe UX](./)
+  - [Wireframe UX](./wireframe.png)
   - [Mockup UI](./)
     
 Lenguajes y Herramientas utilizados: <br>
