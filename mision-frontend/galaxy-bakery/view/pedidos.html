@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/galaxy.png" type="image/x-icon">
+    <title>Realizar Pedido | Moon Bakery</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<header>
+    <div class="header">
+        <img src="../img/logo.png" alt="">
+         <div class="header-links">        
+                 <a href="../index.html">Inicio</a>
+                 <a href="../index.html#aboutUs">Sobre Nosotros</a>
+                 <a href="../index.html#cakes">Pasteles</a>
+                 <a href="../index.html#addresses" >Dirección</a>
+                 <a href="../index.html#addresses" >Contactos</a>
+                 <a href="../index.html#addresses" >Horarios de Atención</a>
+                 <a href="./pedidos.html"  id="pedido">Realizar Pedido</a>
+         </div>
+     </div>
+</header>
+<body class="body-form">
+    <h2 class="title-form">Cuéntanos ¿Cómo deseas que sea tu pastel?</h2>
+    <div class="formulario">
+        <form action="action_page.php">
+        <label for="">Datos Personales</label>
+          <div class="row">
+            <div class="col-50">
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+            </div>
+            <div class="col-50">
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-50">
+              <input type="text" id="correo" name="correo" placeholder="Correo">
+            </div>
+            <div class="col-50">
+                <input type="text" id="telefono" name="telefono" placeholder="Télefono">
+            </div>
+          </div>
+        <label for="">Detalles del Pastel</label>
+          <div class="row">
+            <div class="col-100">
+              <select id="pastel" name="pastel">
+                <option value="select" selected>Seleccione el tipo de pastel que desea adquirir</option>
+                <option value="pluto">Pluto Cake</option>
+                <option value="venus">Venus Cake</option>
+                <option value="saturn">Saturn Cake</option>
+                <option value="mars">Mars Cake</option>
+                <option value="neptune">Neptune Cake</option>
+                <option value="sun">Sun Cake</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-100">
+            Sabor del Pastel
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Vainilla +$4</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Chocolate +$5</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Fresa +$7</label>
+            <label><input type="checkbox" id="cbox1" value="first_checkbox"> Limón +$4</label>
+          </div>
+          <div class="row">
+            <div class="col-100">
+                Relleno del Pastel
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Chocolate +$5</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Mermelada +$3</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Ganache +$4</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Crema de leche +$3</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-100">
+                Tipo de Cubierta del Pastel
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Betún +$3</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Caramelo Suave +$3.5</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Frutas +$7</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Fondant +$9</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Chantilly +$3</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Merengue +$3</label>
+            </div>
+            <div class="col-100">
+                Adornos del Pastel
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Adorno 3D +$9</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Adornos Geométricos +$8</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Adorno Floral +$8</label>
+                <label><input type="checkbox" id="cbox1" value="first_checkbox"> Adorno Drip Cake +$10</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-100">
+              <textarea id="detalles" name="detalles" placeholder="Describenos que deseas de tu pastel" style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input class="boton" type="submit" value="Pagar">
+          </div>
+        </form>
+      </div>
+</body>
+</html>
