@@ -187,14 +187,14 @@ div .reset {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 300px;
+  height: 250px;
   padding: 20px;
   background: #f0f0f0f0;
 }
 
 .product-tumb img {
   width: 290px;
-  height: 310px;
+  height: 270px;
 }
 
 .product-tumb img {
@@ -329,6 +329,12 @@ footer {
     background-color: #D05D06;
 }
 
+.formulario {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 50px;
+}
 .title-form {
  color: white;
 }
@@ -344,7 +350,7 @@ label{
   
 }
 
-input[type=text], select, textarea{
+input[type=email],input[type=date], input[type=text], select, textarea{
     width: 100%;
     padding: 12px;
     border: 1px solid #d15c04;
@@ -352,27 +358,20 @@ input[type=text], select, textarea{
     box-sizing: border-box;
     resize: vertical;
   }
+
+  
   
   input[type=submit] {
     background-color: #d15c04;
     color: white;
+    margin: 20px;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;   
+    float: right;
   }
 
-  input .boton{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-  }
-  .formulario {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
-    margin: 15px;
-  }
   .col-50 {
     float: left;
     width: 49%;

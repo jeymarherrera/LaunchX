@@ -27,28 +27,33 @@
 <body class="body-form">
     <h2 class="title-form">Cuéntanos ¿Cómo deseas que sea tu pastel?</h2>
     <div class="formulario">
-        <form action="action_page.php">
+        <form action="pago.html">
         <label for="">Datos Personales</label>
           <div class="row">
             <div class="col-50">
-              <input type="text" id="nombre" name="nombre" placeholder="Nombre">
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
             </div>
             <div class="col-50">
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido">
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
             </div>
           </div>
           <div class="row">
             <div class="col-50">
-              <input type="text" id="correo" name="correo" placeholder="Correo">
+              <input type="email" id="correo" name="correo" placeholder="Correo" required>
             </div>
             <div class="col-50">
-                <input type="text" id="telefono" name="telefono" placeholder="Télefono">
+                <input type="text" id="telefono" name="telefono" placeholder="Télefono" required>
             </div>
           </div>
         <label for="">Detalles del Pastel</label>
+         <div class="row">
+            <div class="col-100">
+                <input type="date" id="fecha" name="fecha" placeholder="Fecha de Requerida" required>
+              </div>
+          </div>
           <div class="row">
             <div class="col-100">
-              <select id="pastel" name="pastel">
+              <select id="pastel" name="pastel" required>
                 <option value="select" selected>Seleccione el tipo de pastel que desea adquirir</option>
                 <option value="pluto">Pluto Cake</option>
                 <option value="venus">Venus Cake</option>
@@ -100,7 +105,7 @@
             </div>
           </div>
           <div class="row">
-            <input class="boton" type="submit" value="Pagar">
+            <a href="../view/pago.html" class=""><input class="boton" type="submit" value="Siguiente"></a>
           </div>
         </form>
       </div>

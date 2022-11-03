@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../img/galaxy.png" type="image/x-icon">
+    <title>Realizar Pago | Moon Bakery</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<header>
+    <div class="header">
+        <img src="../img/logo.png" alt="">
+         <div class="header-links">        
+                 <a href="../index.html">Inicio</a>
+                 <a href="../index.html#aboutUs">Sobre Nosotros</a>
+                 <a href="../index.html#cakes">Pasteles</a>
+                 <a href="../index.html#addresses" >Dirección</a>
+                 <a href="../index.html#addresses" >Contactos</a>
+                 <a href="../index.html#addresses" >Horarios de Atención</a>
+                 <a href="pedidos.html"  id="pedido">Realizar Pedido</a>
+         </div>
+     </div>
+</header>
+<body class="body-form">
+    <h2 class="title-form">Realizar Pago</h2>
+    <div class="formulario">
+        <form action="../index.html">
+        <label for="">Datos de Pago</label>
+          <div class="row">
+            <div class="col-100">
+              <input type="text" id="nombre" name="nombre" placeholder="Nombre y apellido del propietario de la tarjeta" required>
+            </div>
+            <div class="col-100">
+                <input type="text" id="fecha" name="tarjeta" placeholder="Número de la tarjeta" required>
+              </div>
+          <div class="row">
+            <div class="col-50">
+              <input type="date" id="fecha" name="fecha" placeholder="Fecha de Expiración" required>
+            </div>
+            <div class="col-50">
+                <input type="text" id="cvc" name="cvc" placeholder="CVV/CVC" required>
+            </div>
+          </div>
+          <div class="row">
+            
+            <div class="col-50">
+                <label for="">Monto a Pagar</label><br><br>
+                <input type="text" id="monto" name="monto" placeholder="$20.05" disabled>
+            </div>
+          </div>
+          <div class="row">
+            <a href="../index.html" class=""><input class="boton" type="submit" value="Pagar"></a>
+          </div>
+        </form>
+      </div>
+</body>
+</html>
