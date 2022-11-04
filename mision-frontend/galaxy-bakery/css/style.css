@@ -300,14 +300,14 @@ footer {
   padding: 20px;
   margin: 0 auto;
   color: #f0ddd6;
+  display: flex;
 }
 
 .text {
   display: flex;
-  align-items: center;
-  justify-content: space-around;
-  width: 70%;
-  margin-right: 5%;
+  justify-content: center;
+  width: 100%;
+  padding: 1%;
   color: #f0ddd6;
 }
 
