@@ -12,6 +12,12 @@
 - El pastelero necesita tener la información de la cantidad de adornos que le quedan para hacer los pasteles.
 - El pastelero necesita una tabla donde aparezcan los pedidos que se han realizado con los datos del formulario.
 - La página debe tener información de la pastelería que es Dirección, Teléfono y horarios de atención.
+
+Soluciones Propuestas
+- [Toma de Requerimientos](./)
+- [Público Objetivo](./)
+- [Wireframe](./)
+- [Mockup UI](./UI)
     
 Lenguajes y Herramientas utilizados: <br>
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
