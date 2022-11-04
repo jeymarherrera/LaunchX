@@ -4,3 +4,4 @@
  ![Formulario Image](formulario.png)
  ![Iniciar Image](iniciar.png)
  ![Pedidos Image](pedidos.png)
+ ![Inventario Image](inventario.png)
