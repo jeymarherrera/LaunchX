@@ -60,6 +60,8 @@
    
    ![Buyer Image](./buyer-persona.png)
   # Público Objetivo - Aboga Bot :robot:
+  
+  ![Public Image](./publico-objetivo.png)
   # Wireframe UX - Aboga Bot :robot:
  ![Wireframe Image](wireframe.png)
  :paperclip:Link: https://balsamiq.cloud/sv6p4cw/pg0gzpq
