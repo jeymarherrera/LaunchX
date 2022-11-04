@@ -1,6 +1,6 @@
 #  Pastelería Galaxy Bakery :cake:
  Página Web para la automatización de pedidos de una pastelería. <br>
- ![Logo Image](./img/logo.png)   
+ ![Logo Image](./public/img/logo.png)   
   Necesidades:
 - El cliente de la pastelería necesita ver los diferentes sabores de pasteles, así como los precios de cada uno.
 - El cliente de la pastelería necesita ver los diferentes adornos con los que se puede decorar el pastel y los precios de cada uno.
