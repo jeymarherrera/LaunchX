@@ -2,8 +2,8 @@
 - Innovaccion Virtual: https://innovaccion.cloud/
 # Misión Frontend de Launch X
 - Proyectos Desarrollados: <br>
-    :one:  [Pastelería - Galaxy Bakery](./mision-frontend/galaxy-bakery): Página Web para la automatización de pedidos de una pastelería. <br>
-    :two:  [Agencia de Abogados - AbogaBot](./mision-frontend/aboga-bot): Página Web para la automatización de demandas de un bufete de abogados. <br>
+    :one:  [Agencia de Abogados - AbogaBot](./mision-frontend/aboga-bot): Página Web para la automatización de demandas de un bufete de abogados. <br>
+    :two:  [Pastelería - Galaxy Bakery](./mision-frontend/galaxy-bakery): Página Web para la automatización de pedidos de una pastelería. <br>
     :three:  [Centro de Vacunación - Vaccination](./): Página Web para la automatización de vacunas de un país. <br>
     :four:  [Tienda de Tacos - Tacos ¨El Jefe¨](./): Página Web para la automatización de una pequeña empresa de tacos. <br>
         
