@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" href="./img/icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <audio id="pokemon-music" autoplay>
+        <source src="./audio/musica.mp3" type="audio/mpeg"> 
+        No compatible
+    </audio>
+    <div class="pokedex-container">
+        <div class="pokedex">
+            <div class="pokemon-left-side-container">
+                <div class="top-side">
+                    <div class="circle-base">
+                        <div class="circle-camera">
+                            <div class="circle-reflection">
+                                <div class="cicle-light-reflection"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-base">
+                        <div class="circle-camera">
+                            <div class="circle-reflection">
+                                <div class="cicle-light-reflection"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-base">
+                        <div class="circle-camera">
+                            <div class="circle-reflection">
+                                <div class="cicle-light-reflection"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="circle-base">
+                        <div class="circle-camera">
+                            <div class="circle-reflection">
+                                <div class="cicle-light-reflection"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="horizontal-bar"></div>
+                    <div class="light-reflection"></div>
+                </div>
+                <div class="pokemon-screen-information">
+                    <div class="middle-side">
+                        <div class="pokemon-screen-container">
+                            <div class="display">
+                                <img src="./img/pokebola.png" alt="" id="pokebola-image">
+                            </div>
+                        </div>
+                        <div class="oval"></div>
+                        <div class="circles-container">
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                            <div class="circle"></div>
+                        </div>
+                    </div>
+                    <div class="bottom-side">
+                        <div class="ovals">
+                            <div class="oval"></div>
+                            <div class="oval"></div>
+                        </div>
+                        <div class="rectangle">
+                            <p>Music: <span id="text-music">ON</span></p>
+                        </div>
+                        <div class="pokemon-sound-button-container">
+                            <button class="sound" id="sound-button">
+                                <span class="material-symbols-outlined">volume_up</span>
+                            </button>
+                        </div>
+                        <div class="d-pad_container">
+                            <div class="d-pad">
+                                <div class="left-container">
+                                    <div class="left">
+                                        <button class="left-button" id="left-button">
+                                            <span class="material-symbols-outlined">change_history</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="middle-container">
+                                    <div class="top">
+                                        <button class="d-pad_top-button" id="d-pad_top-button">
+                                            <span class="material-symbols-outlined">change_history</span>
+                                        </button>
+                                    </div>
+                                    <div class="middle">
+                                        <span class="material-symbols-outlined">circle</span>
+                                    </div>
+                                    <div class="bottom">
+                                        <button class="d-pad_bottom-button" id="d-pad_bottom-button">
+                                            <span class="material-symbols-outlined">change_history</span>
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="right-container">
+                                    <div class="right">
+                                        <button class="d-pad_right-button" id="d-pad_right-button">
+                                            <span class="material-symbols-outlined">change_history</span>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pokemon-right-side-container">
+                <div class="both-sides">
+                    <div class="front">
+                        <div class="pokemon-data-input-display">
+                            <div class="data-display">
+                                <div class="pokemon-name-type-movements-container">
+                                    <p class="name" id="pokemon-name">Nombre: <span id="nombre">?</span></p>
+                                    <p class="type" id="pokemon-type">Tipo: <span id="type">?</span></p>
+                                    <p>Movimientos: <span id="movements">?</span></p>
+                                </div>
+                                <div class="statistics-container">
+                                    <div class="ps-container">
+                                        <div class="amount-hp" id="amount-hp"></div>
+                                        <p>HP</p>
+                                    </div>
+                                    <div class="atk-container">
+                                        <div class="amount-atk" id="amount-atk"></div>
+                                        <p>Atk</p>
+                                    </div>
+                                    <div class="def-container">
+                                        <div class="amount-def" id="amount-def"></div>
+                                        <p>Def</p>
+                                    </div>
+                                    <div class="spatk-container">
+                                        <div class="amount-spatk" id="amount-spatk"></div>
+                                        <p>Sp. Atk</p>
+                                    </div>
+                                    <div class="spder-container">
+                                        <div class="amount-spdef" id="amount-spdef"></div>
+                                        <p>Sp. Def</p>
+                                    </div>
+                                    <div class="speed-container">
+                                        <div class="amount-speed" id="amount-speed"></div>
+                                        <p>Speed</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="search-container">
+                                <div class="data-input">
+                                    <input type="text" name="pokeName" id="pokeName-input" class="pokeName" placeholder="Ingrese el nombre del Pokemon">
+                                </div>
+                                <button id="search">Buscar</button>
+                            </div>
+                        </div>
+                        <div class="rectangles-container">
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                        </div>
+                        <div class="rectangles">
+                            <div class="rectangle"></div>
+                            <div class="rectangle"></div>
+                        </div>
+                        <div class="oval"></div>
+                        <div class="circle">
+                            <div class="circle-shadow"></div>
+                        </div>
+                        <div class="weight-container">
+                            <p id="weight">Altura: <span id="weight-span">?</span></p>
+                        </div>
+                        <div class="heigth-container">
+                            <p class="height">Peso: <span id="height-span">?</span></p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="triangle"></div>
+                        <div class="bottom-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <marquee direction="right"><img src="./img/pokemon.gif" width="150px" alt=""></marquee>
+    <script src="./js/main.js"></script>
+</body>
+</html>
