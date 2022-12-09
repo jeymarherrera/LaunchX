@@ -1,0 +1,249 @@
+@use "objects";
+
+@mixin Display{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 1900px;
+}
+.menu-principal{
+    @include Display();
+    justify-content: space-around;
+    //position: fixed;
+    width: 100vw;
+    font-size: x-large;
+    padding-top: 1.5rem;
+
+    .menu{
+        @include Display();
+
+        h3{
+            padding:0 2rem 0 2rem;
+            color: objects.$text-color;
+            font-weight: 400;
+        }
+    }
+
+    .title{
+        color: #3050CE;        
+    }
+
+}
+.sec-1{
+    @include Display();
+    font-size: 2rem;
+    padding-left: 10rem;
+    margin-top: 10px;
+    
+
+    .text{
+        width: 50vw;
+        position: relative;
+        top: -150px;
+
+        .title{
+            color: objects.$title-color;
+            font-size: 6rem;
+            font-weight: 900;
+        
+        }
+
+        .sub-text{
+            color: objects.$text-color;
+            width: 70%;
+            
+        }
+    }
+
+    .imagen{
+        width: 50vw;
+    }
+
+    .benefits{
+        display: flex;
+        padding-top: 1rem;
+
+        .benefit{
+            margin: 10px;
+            @include Display();
+            font-size: 1.5rem;
+            font-weight: 500;
+            color: objects.$title-color;
+        }
+    }
+
+    i{
+        margin: 15px;
+        color: #FFD012;
+        background-color: #FFFAE4;;
+        box-shadow: 0px 0px 0 5px #FFFAE4;
+    }
+}
+.sec-2{
+    font-size: 2rem;
+    position: relative;
+    top: -280px;
+    left: 50px;
+    .title{
+        color: objects.$title-color;
+        @include Display();
+
+    }
+    .date-information{
+        @include Display();
+        position: relative;
+        left: 100px;
+        background-color: hsl(220, 60%, 99%, 0.95);
+        box-shadow: 0px 15px 10px hsla(230, 67%, 83%, 0.377);
+        padding: 2rem;
+        width: 1300px;
+        .date{
+            align-items: center;
+            padding-right: 2rem;
+            margin-right: 2rem;
+            h3{
+                color: objects.$title-color;
+                margin: 0;
+                padding-bottom: 2rem;
+            }
+            div{
+                @include Display();
+                p{
+                    color: objects.$text-color;
+                }
+            }
+        }
+    }
+}
+.sec-3{
+    @include Display();
+    justify-content:center;
+    margin-top: -180px;
+    img{
+        margin: 25px;
+    }
+}
+.sec-4{
+    margin-top: 100px;
+    .text{
+        width: 700px;
+        margin-left: 180px;
+        h3{
+            font-size: 3.6rem;
+            color: objects.$title-color;
+        }
+        p{
+            font-size: 1.7rem;
+            color: objects.$text-color;
+        }
+    }
+    
+    .cards{
+        @include Display();
+        justify-content:center;
+    }
+}
+.sec-5{
+    margin-top:100px;
+    @include Display();
+    align-items: flex-start;
+    .image{
+        margin-top: 150px;
+        width: 45vw;
+        img{
+            width: 45vw;
+        }
+    }
+    .text{
+        padding:  0 80px 0 100px;
+        &-title{
+            color: objects.$title-color;
+            font-size: 4rem;
+        }
+        &-text{
+            color: objects.$text-color;
+            font-size: 1.8rem;
+        }
+
+        .acordeons{
+            margin-top: 90px;
+
+        }
+    }
+}
+.sec-6{
+    @include Display();
+    align-items: flex-start;
+    margin-top: 100px;
+    .image{
+        margin-top: 150px;
+        width: 45vw;
+        img{
+            width: 45vw;
+        }
+    }
+    .text{
+        padding:  0 80px 0 100px;
+        margin-left: 55px;
+        &-title{
+            color: objects.$title-color;
+            font-size: 4rem;
+        }
+        &-text{
+            color: objects.$text-color;
+            font-size: 1.8rem;
+        }
+    }
+    .cards-2{
+        margin-top: 250px;
+        display: flex;
+    }
+}
+.sec-7{
+    background-color: #EEF3FF;
+    padding: 60px  100px 0 180px;
+    margin-top: 200px;
+    p{
+        color: objects.$text-color;
+        font-size: 1.5rem;
+    }
+    .top{
+        @include Display();
+        justify-content: space-between;
+        .resume{
+            width: 250px;
+            h3{
+                color: objects.$icon-color;
+                font-size: 2.6rem;
+            }
+        }
+        th{
+            color: objects.$title-color;
+            font-size: 2.2rem;
+            padding: 15px 60px;
+            text-align: center;
+        }
+        td{
+            color: objects.$text-color;
+            font-size: 1.4rem;
+            padding: 15px 60px;
+        }
+    }
+    .footer{
+        margin-top: 80px;
+        @include Display();
+        justify-content: space-between;
+        .terms{
+            @include Display();
+            p{
+                padding: 0 20px;
+            }
+        }
+    }
+}

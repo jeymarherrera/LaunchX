@@ -1,0 +1,404 @@
+.botton-blue {
+  font-size: x-large;
+  color: white;
+  background-color: #3050CE;
+  border-radius: 10px;
+  border: none;
+  width: 210px;
+  height: 70px;
+  margin-left: 2rem;
+  box-shadow: 0px 15px 10px #F1F5FF;
+}
+
+.botton-blue:hover {
+  background-color: #526bcf;
+}
+
+.botton-2 {
+  font-size: x-large;
+  color: #3050CE;
+  background-color: #F1F5FF;
+  border-radius: 10px;
+  border: none;
+  width: 210px;
+  height: 70px;
+  margin-left: 2rem;
+}
+
+.icon-blue, .card-2-top-icon, .acordeon-second-icon, .acordeon-main-icon, .card-icon {
+  color: #2A4AC8;
+  background-color: hsla(228deg, 61%, 81%, 0.3);
+  box-shadow: 0px 0px 0 3px hsla(228deg, 61%, 81%, 0.3);
+  margin-right: 15px;
+  border-radius: 7px;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  margin: 30px;
+  padding: 20px;
+  border: 2px solid hsla(229deg, 42%, 75%, 0.1);
+}
+.card-icon {
+  font-size: 4rem;
+}
+.card-title {
+  color: #1F3E72;
+  font-weight: 200;
+  font-size: 2.2rem;
+}
+.card-text {
+  color: #6D7B93;
+  font-size: 1.4rem;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 10px hsla(228deg, 57%, 66%, 0.3);
+}
+
+.acordeon {
+  width: 600px;
+  margin: 40px 0px 40px 50px;
+}
+.acordeon-top {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.acordeon-top div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.acordeon-main-icon {
+  font-size: 1.5rem;
+  box-shadow: 0px 0px 0px 10px #F1F5FF;
+  margin-right: 30px;
+}
+.acordeon-title {
+  color: #1F3E72;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+.acordeon-second-icon {
+  margin-left: 15px;
+}
+.acordeon-description {
+  color: #6D7B93;
+  margin-left: 30px;
+  padding-bottom: 10px;
+}
+
+.acordeon:hover {
+  box-shadow: 0px 10px 10px hsla(228deg, 57%, 66%, 0.3);
+}
+
+.card-2 {
+  width: 300px;
+  padding: 30px;
+  border: 2px solid hsla(229deg, 42%, 75%, 0.1);
+  margin: 20px;
+}
+.card-2-top {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.card-2-top-icon {
+  position: relative;
+  top: -20px;
+  margin-right: 20px;
+  font-size: 2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 15px hsla(228deg, 61%, 81%, 0.3);
+}
+.card-2-top-text h3 {
+  color: #1F3E72;
+  margin: 0px 10px;
+  font-weight: 500;
+}
+.card-2-top-text p {
+  color: #6D7B93;
+  margin-top: 10px;
+}
+
+.card-2:hover {
+  box-shadow: 0px 0px 20px hsla(228deg, 57%, 66%, 0.3);
+}
+.card-2:hover .botton-2 {
+  color: white;
+  background-color: #3050CE;
+  box-shadow: 0px 15px 10px hsla(228deg, 57%, 66%, 0.3);
+}
+
+.fondo .blue-rectangle {
+  width: 880px;
+  height: 140px;
+  background-color: hsla(229deg, 42%, 75%, 0.1);
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+
+* {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+body {
+  width: 1900px;
+}
+
+.menu-principal {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100vw;
+  font-size: x-large;
+  padding-top: 1.5rem;
+}
+.menu-principal .menu {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.menu-principal .menu h3 {
+  padding: 0 2rem 0 2rem;
+  color: #6D7B93;
+  font-weight: 400;
+}
+.menu-principal .title {
+  color: #3050CE;
+}
+
+.sec-1 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 2rem;
+  padding-left: 10rem;
+  margin-top: 10px;
+}
+.sec-1 .text {
+  width: 50vw;
+  position: relative;
+  top: -150px;
+}
+.sec-1 .text .title {
+  color: #1F3E72;
+  font-size: 6rem;
+  font-weight: 900;
+}
+.sec-1 .text .sub-text {
+  color: #6D7B93;
+  width: 70%;
+}
+.sec-1 .imagen {
+  width: 50vw;
+}
+.sec-1 .benefits {
+  display: flex;
+  padding-top: 1rem;
+}
+.sec-1 .benefits .benefit {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #1F3E72;
+}
+.sec-1 i {
+  margin: 15px;
+  color: #FFD012;
+  background-color: #FFFAE4;
+  box-shadow: 0px 0px 0 5px #FFFAE4;
+}
+
+.sec-2 {
+  font-size: 2rem;
+  position: relative;
+  top: -280px;
+  left: 50px;
+}
+.sec-2 .title {
+  color: #1F3E72;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.sec-2 .date-information {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  left: 100px;
+  background-color: hsla(220deg, 60%, 99%, 0.95);
+  box-shadow: 0px 15px 10px hsla(230deg, 67%, 83%, 0.377);
+  padding: 2rem;
+  width: 1300px;
+}
+.sec-2 .date-information .date {
+  align-items: center;
+  padding-right: 2rem;
+  margin-right: 2rem;
+}
+.sec-2 .date-information .date h3 {
+  color: #1F3E72;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+.sec-2 .date-information .date div {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.sec-2 .date-information .date div p {
+  color: #6D7B93;
+}
+
+.sec-3 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -180px;
+}
+.sec-3 img {
+  margin: 25px;
+}
+
+.sec-4 {
+  margin-top: 100px;
+}
+.sec-4 .text {
+  width: 700px;
+  margin-left: 180px;
+}
+.sec-4 .text h3 {
+  font-size: 3.6rem;
+  color: #1F3E72;
+}
+.sec-4 .text p {
+  font-size: 1.7rem;
+  color: #6D7B93;
+}
+.sec-4 .cards {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.sec-5 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.sec-5 .image {
+  margin-top: 150px;
+  width: 45vw;
+}
+.sec-5 .image img {
+  width: 45vw;
+}
+.sec-5 .text {
+  padding: 0 80px 0 100px;
+}
+.sec-5 .text-title {
+  color: #1F3E72;
+  font-size: 4rem;
+}
+.sec-5 .text-text {
+  color: #6D7B93;
+  font-size: 1.8rem;
+}
+.sec-5 .text .acordeons {
+  margin-top: 90px;
+}
+
+.sec-6 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  align-items: flex-start;
+  margin-top: 100px;
+}
+.sec-6 .image {
+  margin-top: 150px;
+  width: 45vw;
+}
+.sec-6 .image img {
+  width: 45vw;
+}
+.sec-6 .text {
+  padding: 0 80px 0 100px;
+  margin-left: 55px;
+}
+.sec-6 .text-title {
+  color: #1F3E72;
+  font-size: 4rem;
+}
+.sec-6 .text-text {
+  color: #6D7B93;
+  font-size: 1.8rem;
+}
+.sec-6 .cards-2 {
+  margin-top: 250px;
+  display: flex;
+}
+
+.sec-7 {
+  background-color: #EEF3FF;
+  padding: 60px 100px 0 180px;
+  margin-top: 200px;
+}
+.sec-7 p {
+  color: #6D7B93;
+  font-size: 1.5rem;
+}
+.sec-7 .top {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sec-7 .top .resume {
+  width: 250px;
+}
+.sec-7 .top .resume h3 {
+  color: #2A4AC8;
+  font-size: 2.6rem;
+}
+.sec-7 .top th {
+  color: #1F3E72;
+  font-size: 2.2rem;
+  padding: 15px 60px;
+  text-align: center;
+}
+.sec-7 .top td {
+  color: #6D7B93;
+  font-size: 1.4rem;
+  padding: 15px 60px;
+}
+.sec-7 .footer {
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.sec-7 .footer .terms {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.sec-7 .footer .terms p {
+  padding: 0 20px;
+}
