@@ -1,32 +1,28 @@
 # Misión Backend de Launch X
 ## Módulo 1 - Introducción a JavaScript para Backend
-- Clases:
-    - Clase 1 - Introducción aBackend
-    - Clase 2 - Scripting en JavaScript
-    - Clase 3 - JavaScript a Fondo
-    - Clase 4 - Estructuras de Control y Datos
+- ¿Qué aprendí?:
+    - Introducción a Backend, Scripting en JavaScript, JavaScript a Fondo, Estructuras de Control y Datos.
 - Proyectos/Prácticas Realizadas: <br> 
-    :one:  [](./): . <br>
+    :one:  [Próximamente](./): . <br>
    
 ## Módulo 2 - React
-- Clases:
-    - Clase 1 - Fundamentos de React
-    - Clase 2 - Landing page en React
-    - Clase 3 - POO y Proyectos en React
-    - Clase 4 - Contexto, State y LifeCycle en React
+- ¿Qué aprendí?:
+    - Fundamentos de React, Landing page en React, POO, Contexto, State y LifeCycle en React.
 - Proyectos/Prácticas Realizadas: <br> 
-    :one:  [](./): . <br>
+    :one:  [Próximamente](./): . <br>
    
 ## Módulo 3 - Backend con Node.js
-- Clases:
-    - Clase 1 - Introducción a Node.js
-    - Clase 2 - Node.js y Express
-    - Clase 3 - Sockets y Proyecto
-    - Clase 4 - inicio de Proyecto con Node.js
-    - Clase 5 - Continuación de Proyecto e Introducción a Testing
+- ¿Qué aprendí?:
+    - Introducción a Node.js, Express, Sockets e Introducción a Testing
 - Proyectos/Prácticas Realizadas: <br> 
-    :one:  [](./): . <br>
-
+    :one:  [Próximamente](./): . <br>
+    
+## Módulo 4 - Testing y DevOps con Node
+- ¿Qué aprendí?:
+    - Uso de Git, CORS y Azure con Node JS
+- Proyectos/Prácticas Realizadas: <br> 
+    :one:  [Próximamente](./): . <br>
+    
 ## Lenguajes y Herramientas utilizadas
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
