@@ -4,12 +4,11 @@
 - Proyectos Desarrollados: <br>
     :one:  [Agencia de Abogados - AbogaBot](./mision-frontend/aboga-bot): Página Web para la automatización de demandas de un bufete de abogados. <br>
     :two:  [Pastelería - Galaxy Bakery](./mision-frontend/galaxy-bakery): Página Web para la automatización de pedidos de una pastelería. <br>
-    :three:  [Tienda de Tacos - Tacos ¨El Jefe¨](.//mision-frontend/): Página Web para la automatización de una pequeña empresa de tacos. <br>
+    :three:  [Tienda de Tacos - Tacos ¨El Jefe¨](.//mision-frontend/tacos-el-jefe): Página Web para la automatización de una pequeña empresa de tacos. <br>
     :four: [Centro de Vacunación - Vaccination](.//mision-frontend/vaccination): Página Web para la automatización de vacunas de un país. <br>
     :five: [Enciclopedia Virtual de Pokemons - Pokedex](.//mision-frontend/pokedex): Página Web de enciclopedia de pokemones alucivo a Pokedex. <br>
    
-        
-## Lenguajes y Herramientas utilizadas
+ ## Lenguajes y Herramientas utilizadas
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) 
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![SCSS](https://img.shields.io/badge/scss-d662b9.svg?style=for-the-badge&logo=scss&logoColor=pink)
@@ -22,8 +21,14 @@
 
 # Misión Backend de Launch X
 - Proyectos Desarrollados: <br>
-Próximamente...
-## Lenguajes y Herramientas utilizadas
+    :one:  [Juego - "El Amarre"](./mision-backend/):  <br>
+    :two:  [Calculadora](./mision-backend/):  <br>
+    :three:  [Lista de Tareas- TO DO APP](./mision-backend/):  <br>
+    :four: [Enciclopedia Virtual de Pokemons - Pokedex](./mision-backend/):  <br>
+    :five: [Multijugador - Barco Multijugador](./mision-backend/):  <br>
+    :six: [Aplicación de chat en tiempo real - FastChat](./mision-backend/): <br>
+    
+ ## Lenguajes y Herramientas utilizadas
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![Node JS](https://img.shields.io/badge/nodejs-1d936e.svg?style=for-the-badge&logo=nodejs&logoColor=%23F7DF1E)
 ![React JS](https://img.shields.io/badge/react-%231572B6.svg?style=for-the-badge&logo=react&logoColor=white)
