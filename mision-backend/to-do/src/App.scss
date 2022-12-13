@@ -13,3 +13,29 @@ body{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   text-align: center;
 }
+
+.todo-list{
+  background: #fff;
+  font-size: 18px;
+  max-width: 300px;
+  margin: auto;
+  margin-bottom: 24px;
+  padding: 8px 16px;
+  box-shadow: 0 5px 30px rgb(0, 0, 0);
+}
+
+$colorRosa: #8f1191;
+$colorRosaHover: #b516b8;
+
+@mixin button ($class, $color, $colorHover){
+  .button.#{$class}{background: $color;}
+  .button.#{$class}:hover{background: $colorHover;}
+  .button.#{$class}:active{background: $color;}
+}
+
+.button{
+  outline: none;
+  color: #dddddd;
+}
+
+@include button ('pink', $colorRosa, $colorRosaHover)
